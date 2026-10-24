@@ -1,0 +1,12 @@
+# Normalize line endings so the project builds the same on every platform.
+* text=auto eol=lf
+
+# Windows-only scripts keep CRLF; the POSIX wrapper must stay LF.
+*.bat   text eol=crlf
+*.cmd   text eol=crlf
+gradlew text eol=lf
+
+*.jar   binary
+*.png   binary
+*.apk   binary
+*.jks   binary

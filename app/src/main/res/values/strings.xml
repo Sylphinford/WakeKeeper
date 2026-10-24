@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">WakeKeeper</string>
+    <string name="app_tagline">让手机在后台保持唤醒</string>
+
+    <string name="state_on">保持唤醒中</string>
+    <string name="state_screen">屏幕常亮中</string>
+    <string name="state_both">全部开启</string>
+    <string name="state_off">已关闭</string>
+    <string name="duration_idle">--:--:--</string>
+
+    <string name="main_title">保持唤醒</string>
+    <string name="main_subtitle">屏幕熄灭后 CPU 继续运行</string>
+
+    <string name="screen_title">保持屏幕常亮</string>
+    <string name="screen_subtitle">需悬浮窗权限 · 切换应用也不熄屏</string>
+
+    <string name="battery_hint">后台总被系统清理？点此调整电池优化 ›</string>
+    <string name="footer">后台唤醒基于 PARTIAL_WAKE_LOCK，屏幕常亮基于悬浮窗\n关闭开关或停止服务即立即释放</string>
+
+    <string name="notif_channel">唤醒状态</string>
+    <string name="notif_channel_desc">保持唤醒期间显示的常驻通知</string>
+
+    <string name="notif_title_awake">保持唤醒中</string>
+    <string name="notif_title_screen">屏幕常亮中</string>
+    <string name="notif_title_both">保持唤醒 · 屏幕常亮</string>
+
+    <string name="notif_text_awake">CPU 将持续运行，屏幕可正常关闭</string>
+    <string name="notif_text_screen">屏幕不会自动熄灭，切换应用依然有效</string>
+    <string name="notif_text_both">CPU 持续运行，屏幕也不会自动熄灭</string>
+
+    <string name="notif_stop_awake">关闭保持唤醒</string>
+    <string name="notif_stop_screen">关闭屏幕常亮</string>
+    <string name="notif_stop_all">全部关闭</string>
+
+    <string name="overlay_granted">已获得悬浮窗权限，屏幕常亮已开启</string>
+    <string name="overlay_denied">未获得悬浮窗权限，屏幕常亮无法跨应用生效</string>
+    <string name="overlay_unavailable">无法打开悬浮窗权限设置，请手动在系统设置中授予</string>
+
+    <string name="licenses_link">开源许可 · Open source licenses</string>
+    <string name="licenses_title">开源许可</string>
+    <string name="licenses_missing">无法读取许可文本</string>
+</resources>

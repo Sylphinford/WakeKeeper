@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- The dialog panel measures its custom view with MATCH_PARENT, so a dp height here would be
+     ignored: this ScrollView fills whatever height the window gets, and the text scrolls. -->
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingStart="24dp"
+    android:paddingTop="8dp"
+    android:paddingEnd="24dp"
+    android:paddingBottom="8dp"
+    android:scrollbars="vertical">
+
+    <TextView
+        android:id="@+id/licensesText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="monospace"
+        android:lineSpacingExtra="2dp"
+        android:textColor="@color/text_secondary"
+        android:textIsSelectable="true"
+        android:textSize="11sp" />
+</ScrollView>

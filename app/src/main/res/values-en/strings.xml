@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">WakeKeeper</string>
+    <string name="app_tagline">Keep the phone awake in the background</string>
+
+    <string name="state_on">Awake</string>
+    <string name="state_screen">Screen on</string>
+    <string name="state_both">All on</string>
+    <string name="state_off">Off</string>
+    <string name="duration_idle">--:--:--</string>
+
+    <string name="main_title">Keep awake</string>
+    <string name="main_subtitle">CPU keeps running with the screen off</string>
+
+    <string name="screen_title">Keep screen on</string>
+    <string name="screen_subtitle">Needs overlay access · works in any app</string>
+
+    <string name="battery_hint">Getting killed in the background? Adjust battery optimization ›</string>
+    <string name="footer">Background wake uses a PARTIAL_WAKE_LOCK; screen-on uses an overlay\nBoth stop the moment you switch them off</string>
+
+    <string name="notif_channel">Awake status</string>
+    <string name="notif_channel_desc">Ongoing notification shown while WakeKeeper is active</string>
+
+    <string name="notif_title_awake">Staying awake</string>
+    <string name="notif_title_screen">Keeping screen on</string>
+    <string name="notif_title_both">Awake · Screen on</string>
+
+    <string name="notif_text_awake">The CPU keeps running; the screen may turn off</string>
+    <string name="notif_text_screen">The screen will not sleep, even in other apps</string>
+    <string name="notif_text_both">CPU keeps running and the screen will not sleep</string>
+
+    <string name="notif_stop_awake">Stop keeping awake</string>
+    <string name="notif_stop_screen">Stop keeping screen on</string>
+    <string name="notif_stop_all">Turn all off</string>
+
+    <string name="overlay_granted">Overlay access granted, screen-on is active</string>
+    <string name="overlay_denied">No overlay access, so screen-on cannot work across apps</string>
+    <string name="overlay_unavailable">Cannot open overlay settings, please grant it manually</string>
+
+    <string name="licenses_link">Open source licenses</string>
+    <string name="licenses_title">Open source licenses</string>
+    <string name="licenses_missing">Could not read the license text</string>
+</resources>

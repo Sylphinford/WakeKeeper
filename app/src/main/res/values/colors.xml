@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="bg_top">#0B1220</color>
+    <color name="bg_bottom">#0A1526</color>
+
+    <color name="card">#121C2E</color>
+    <color name="card_stroke">#1E2C44</color>
+
+    <color name="accent">#38E1D0</color>
+    <color name="accent_soft">#8FE9E0</color>
+
+    <color name="text_primary">#F2F6FB</color>
+    <color name="text_secondary">#93A5BF</color>
+    <color name="text_muted">#5C6E88</color>
+
+    <color name="ring_stroke_off">#223350</color>
+    <color name="ring_fill_off">#0E1728</color>
+    <color name="ring_stroke_on">#38E1D0</color>
+    <color name="ring_fill_on">#0D2B31</color>
+
+    <color name="ic_launcher_background">#0B1220</color>
+</resources>

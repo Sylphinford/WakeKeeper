@@ -1,0 +1,15 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Outer ring -->
+    <path
+        android:fillColor="#38E1D0"
+        android:fillType="evenOdd"
+        android:pathData="M26,54 A28,28 0 1,1 82,54 A28,28 0 1,1 26,54 Z M33,54 A21,21 0 1,0 75,54 A21,21 0 1,0 33,54 Z" />
+    <!-- Inner dot -->
+    <path
+        android:fillColor="#38E1D0"
+        android:pathData="M54,46.5 A7.5,7.5 0 1,1 54,61.5 A7.5,7.5 0 1,1 54,46.5 Z" />
+</vector>
